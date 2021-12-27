@@ -60,7 +60,7 @@ foreach($proxy as $key=>$value){
 	// 'a'=>2
 	// 'b'=>2
 }
-foreach($proxy as $key=>$value){
+foreach($proxy(A::class) as $key=>$value){
 	// 'a'=>11
 	// 'b'=>2	
 }
